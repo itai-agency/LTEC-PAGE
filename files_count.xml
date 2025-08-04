@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<pagescount>
+	<html_total>9</html_total>
+	<html_done>9</html_done>
+	<images>57</images>
+	<script>11</script>
+	<css>20</css>
+	<pdf/>
+	<documents/>
+	<excel/>
+	<powerpoint/>
+	<flash/>
+	<audios/>
+	<videos>1</videos>
+	<xml/>
+	<json/>
+	<txt/>
+	<autocad/>
+	<model_3d/>
+	<fonts>4</fonts>
+	<scraping_reload>1</scraping_reload>
+	<is_pretty_url>true</is_pretty_url>
+	<has_trailing_slash>false</has_trailing_slash>
+	<is_ebn>false</is_ebn>
+	<email>alabrada912@gmail.com</email>
+	<theme_name>WmdTheme375732</theme_name>
+	<server_url_front_page>https://www.waybackmachinedownloader.com/scraping/files/demo/ltec-group.com_alabrada912_gmail.com_fj5edc5t6s/</server_url_front_page>
+	<no_www_url>ltec-group.com</no_www_url>
+	<hosted_domain/>
+	<original_archive_url>https://web.archive.org/web/20240522070843/https://ltec-group.com/</original_archive_url>
+	<final_archive_url>https://web.archive.org/web/20240522070843/https://ltec-group.com/</final_archive_url>
+	<front_page_code_date>20240522070843</front_page_code_date>
+	<total_urls_from_api>12 pages</total_urls_from_api>
+	<max_reached_live>false</max_reached_live>
+	<scrape_other_captures>false</scrape_other_captures>
+	<total_size>17688</total_size>
+</pagescount>
