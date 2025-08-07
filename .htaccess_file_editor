@@ -1,6 +1,6 @@
 # invoke rewrite engine
 RewriteEngine On
-RewriteBase /scraping/files/demo/ltec-group.com_alabrada912_gmail.com_fj5edc5t6s/
+RewriteBase /scraping/files/demo/ltec-group.vercel.app_alabrada912_gmail.com_fj5edc5t6s/
 
 Options -Indexes
 <IfModule mod_negotiation.c>
@@ -12,7 +12,7 @@ RewriteCond %{HTTP_USER_AGENT} (ia_archiver) [NC]
 RewriteRule . - [F,L]
 
 # Specific redirections
-RewriteRule ^index\.html$ /scraping/files/demo/ltec-group.com_alabrada912_gmail.com_fj5edc5t6s/ [L,R=301]
+RewriteRule ^index\.html$ /scraping/files/demo/ltec-group.vercel.app_alabrada912_gmail.com_fj5edc5t6s/ [L,R=301]
 
 # Create pretty URLs
 DirectorySlash Off
