@@ -12474,24 +12474,24 @@ Counterup Area
   max-width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
+  -ms-grid-columns: (1fr 1fr 1fr 1fr);
   grid-template-columns: repeat(4, 1fr);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counter-fullwidth-grid {
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 767px) {
   .counter-fullwidth-grid {
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 575px) {
   .counter-fullwidth-grid {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -12679,13 +12679,13 @@ Counterup Area
 }
 @media only screen and (max-width: 767px) {
   .counter-grid {
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 479px) {
   .counter-grid {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -13264,7 +13264,7 @@ Wavify Area
   list-style: none;
 }
 .brand-default.brand-style--3 {
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr 1fr 1fr);
   grid-template-columns: repeat(3, 1fr);
   display: -ms-grid;
   display: grid;
@@ -13286,14 +13286,14 @@ Wavify Area
   opacity: 1;
 }
 .brand-default.brand-style--2 {
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr 1fr 1fr);
   grid-template-columns: repeat(3, 1fr);
   display: -ms-grid;
   display: grid;
 }
 @media only screen and (max-width: 575px) {
   .brand-default.brand-style--2 {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -13326,7 +13326,7 @@ Wavify Area
   display: none;
 }
 .brand-default.brand-business {
-  -ms-grid-columns: (1fr)[4] !important;
+  -ms-grid-columns: (1fr 1fr 1fr 1fr) !important;
   grid-template-columns: repeat(4, 1fr) !important;
   display: -ms-grid;
   display: grid;
@@ -13334,13 +13334,13 @@ Wavify Area
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .brand-default.brand-business {
-    -ms-grid-columns: (1fr)[2] !important;
+    -ms-grid-columns: (1fr 1fr) !important;
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 @media only screen and (max-width: 767px) {
   .brand-default.brand-business {
-    -ms-grid-columns: (1fr)[1] !important;
+    -ms-grid-columns: (1fr) !important;
     grid-template-columns: repeat(1, 1fr) !important;
     margin: 0px;
   }
@@ -13369,14 +13369,14 @@ Wavify Area
 }
 
 .social-clint {
-  -ms-grid-columns: (1fr)[4];
+  -ms-grid-columns: (1fr 1fr 1fr 1fr);
   grid-template-columns: repeat(4, 1fr);
   display: -ms-grid;
   display: grid;
 }
 @media only screen and (max-width: 767px) {
   .social-clint {
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -16794,13 +16794,13 @@ Progress Charts
 }
 @media only screen and (max-width: 767px) {
   .gallery-grid {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .gallery-grid {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -21218,7 +21218,7 @@ Pricing Box
 }
 @media only screen and (max-width: 575px) {
   .icon-grid-box {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -22303,24 +22303,24 @@ Info Boxes
 .bk-info-boxes {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
+  -ms-grid-columns: (1fr 1fr 1fr 1fr);
   grid-template-columns: repeat(4, 1fr);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .bk-info-boxes {
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .bk-info-boxes {
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 767px) {
   .bk-info-boxes {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -23588,7 +23588,7 @@ body.loaded .page-loading {
 .paralax-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr 1fr 1fr);
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -52149,7 +52149,7 @@ body.template-font-8 .service.service--2 .content p {
 }
 
 .pv-service-wrapper {
-  -ms-grid-columns: (1fr)[4];
+  -ms-grid-columns: (1fr 1fr 1fr 1fr);
   grid-template-columns: repeat(4, 1fr);
   grid-row-gap: 50px;
   display: -ms-grid;
@@ -52157,13 +52157,13 @@ body.template-font-8 .service.service--2 .content p {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pv-service-wrapper {
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 767px) {
   .pv-service-wrapper {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -52515,7 +52515,7 @@ preview Area
     margin-top: 20px;
   }
   .tp-caption.startups-pra,
-.tp-caption.creative-agency-pra {
+  .tp-caption.creative-agency-pra {
     padding: 0 29px !important;
     width: auto !important;
   }
@@ -52562,8 +52562,8 @@ preview Area
     font-size: 36px;
   }
   .revolution-slider-area .inner h1.heading br,
-h3.heading-h3 br,
-.single-vertical-slide .slide-inner .info h2.heading br {
+  h3.heading-h3 br,
+  .single-vertical-slide .slide-inner .info h2.heading br {
     display: none;
   }
   h6.heading-h6.font-16 {
@@ -52573,7 +52573,7 @@ h3.heading-h3 br,
     min-height: 144px;
   }
   .section-title--between .title h3,
-.title--creative h2 {
+  .title--creative h2 {
     font-size: 29px;
   }
   .call-to-action.callto-action--1 .content h3 {
