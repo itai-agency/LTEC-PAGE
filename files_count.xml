@@ -25,10 +25,10 @@
 	<email>alabrada912@gmail.com</email>
 	<theme_name>WmdTheme375732</theme_name>
 	<server_url_front_page>https://www.waybackmachinedownloader.com/scraping/files/demo/ltec-group.com_alabrada912_gmail.com_fj5edc5t6s/</server_url_front_page>
-	<no_www_url>ltec-group.com</no_www_url>
+	<no_www_url>ltec-group.vercel.app</no_www_url>
 	<hosted_domain/>
-	<original_archive_url>https://web.archive.org/web/20240522070843/https://ltec-group.com/</original_archive_url>
-	<final_archive_url>https://web.archive.org/web/20240522070843/https://ltec-group.com/</final_archive_url>
+	<original_archive_url>https://ltec-group.vercel.app/</original_archive_url>
+	<final_archive_url>https://ltec-group.vercel.app/</final_archive_url>
 	<front_page_code_date>20240522070843</front_page_code_date>
 	<total_urls_from_api>12 pages</total_urls_from_api>
 	<max_reached_live>false</max_reached_live>
